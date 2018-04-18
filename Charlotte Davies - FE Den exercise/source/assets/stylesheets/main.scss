@@ -1,0 +1,117 @@
+@import 'variables';
+
+.body {
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+.background {
+  background-color: $brown;
+  padding: 80px;
+}
+
+.mainhead {
+  fill: $grey;
+}
+
+.topLine {
+  object-fit: contain;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .insta {
+    width: 30px;
+    height: 30px;
+  }
+
+  .cross {
+    width: 30px;
+    height: 30px;
+    align-items: right;
+    display: none;
+  }
+
+  .menu {
+    align-items: right;
+    width: 30px;
+    height: 30px;
+  }
+
+  .title {
+    text-align: center;
+
+    .logo {
+      width: 100px;
+      height: 20px;
+      object-fit: contain;
+    }
+
+    .tag {
+      font-family: $font;
+      font-size: 22px;
+      letter-spacing: normal;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      text-align: center;
+      color: $grey;
+      margin-top: -20px;
+    }
+  }
+}
+
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  visibility: hidden;
+  padding: 30px;
+  background-color: $brown;
+
+  ul {
+    list-style: none;
+    justify-content: center;
+
+    li  h3 {
+      text-transform: uppercase;
+      font-family: $font;
+      font-size: 36px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.5;
+      letter-spacing: 3.5px;
+      text-align: center;
+      color: $grey;
+    }
+  }
+}
+
+
+.subtitles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 25px;
+
+  .sirai {
+    font-family: $font;
+    font-size: 27px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-align: center;
+    color: $grey;
+    text-transform: uppercase;
+    bottom: 0;
+  }
+
+  .beach {
+    border: none;
+  }
+}
